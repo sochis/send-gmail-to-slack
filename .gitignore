@@ -1,0 +1,4 @@
+__pycache__/
+.idea/
+credentials.json
+client_secret.json

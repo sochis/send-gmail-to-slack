@@ -1,0 +1,3 @@
+SLACK_TOKEN = ''
+CHANNEL = ''
+USERNAME = ''

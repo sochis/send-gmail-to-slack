@@ -1,5 +1,5 @@
-from getmail import GetMailContent
-from send_slack import SendSlack
+from gmail.getmail import GetMailContent
+from slack.send_slack import SendSlack
 
 
 class Execute():

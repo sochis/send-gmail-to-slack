@@ -1,4 +1,4 @@
-from authorization import Credential
+from gmail.authorization import Credential
 import base64
 
 

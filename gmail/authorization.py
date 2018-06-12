@@ -24,10 +24,10 @@ class Credential():
         SCOPES = 'https://www.googleapis.com/auth/gmail.' + scope_type
         if (scope_type == 'full'):
             SCOPES = 'https://mail.google.com/'
-        storage = Storage('credentials.json')
+        storage = Storage('gmail/credentials.json')
         credential = storage.get()
         if credential is None or credential.invalid:
-            auth_info = json.load(open('client_secret.json'))
+            auth_info = json.load(open('gmail/client_secret.json'))
             info = auth_info['installed']
             flow = OAuth2WebServerFlow(client_id=info['client_id'],
                                        client_secret=info['client_secret'],

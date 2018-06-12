@@ -1,6 +1,6 @@
 from slackclient import SlackClient
 
-from slack_info import (
+from slack.slack_info import (
     SLACK_TOKEN,
     CHANNEL,
     USERNAME
